@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+p{
+    font-family:'Gabriela', serif;
+    color:white;
+    user-select:none;
+}
+body{
+    background-image:url(imgs/image\ 1.png);
+}
+.wrapper{
+    width:1440px;
+    height:810px;
+    margin:auto;
+    display:flex;
+}
+.left, .center, .right{
+    width:450px;
+    height:600px;
+    background-color:rgba(0,0,0,0.70);
+    box-shadow: 0px 3px 12px 12px #8F00FF;
+    opacity:30%;
+    margin-right:30px;
+    margin-top:110px;
+}
+.left:hover, .center:hover, .right:hover{
+    opacity:85%;
+    transition:1s;
+}
+.left::after:hover, .center::after:hover, .right::after:hover{
+    opacity:20%;
+    transition:1s;
+}
+.center img{
+    width:400px;
+    height:210px;
+    margin-top:22.5px;
+    margin-left:13px;
+}
+.center p{
+    font-size:28px;
+    text-align:left;
+    margin-top:25px;
+}
+.left img{
+    margin-top:25px;
+    margin-left:70px;
+}
+.left p{
+    font-size:22px;
+    text-align:center;
+}
+.right img{
+    width:400px;
+    height:210px;
+    margin-top:auto;
+    margin-left:14px;
+    margin-top:15px;
+}
+.right p{
+    font-size:28px;
+    margin-top:30px;
+    text-align:center;
+}
+.signature{
+    font-family:'Gabriela', serif;
+    font-size:20px;
+    margin-top:10px;
+    color:white;
+}
